@@ -41,6 +41,6 @@ class Course:
         print("------------------------------")
 
         print(f"{self.code} - {self.name} ({self.credits} credits)")
-        print(self.enrolled_students)
+        print("The enrolled students for the course are" ,self.enrolled_students)
 
         print("-----------------------------")
